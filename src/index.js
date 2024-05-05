@@ -7,11 +7,9 @@ import CommentList from "./component/list/CommentList";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
-    <App />
-    <PostList />
-    <CommentList />
-  </React.StrictMode>
+    <React.StrictMode>
+        <App />
+        <PostList />
+        <CommentList />
+    </React.StrictMode>
 );
-
-reportWebVitals();
